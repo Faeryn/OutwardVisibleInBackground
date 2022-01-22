@@ -1,0 +1,13 @@
+{
+    "name": "VisibleInBackground",
+    "author": "Faeryn",
+    "version_number": "1.1.0",
+    "website_url": "",
+    "description": "Makes the game visible even when it's not focused",
+    "dependencies": [
+        "BepInEx-BepInExPack_Outward-5.4.8"
+    ],
+    "artifacts": {
+        "patcher": ["AssetsTools.NET.dll"]
+    } 
+}
