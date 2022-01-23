@@ -14,6 +14,8 @@ namespace BetterChat {
 		internal static ManualLogSource Log;
 		
 		public static ConfigEntry<bool> Enabled;
+		
+		private bool restored = false;
 
 		internal void Awake() {
 			Log = this.Logger;
@@ -24,8 +26,9 @@ namespace BetterChat {
 		private void InitializeConfig() {
 			Enabled = Config.Bind(DISPLAY_NAME, DISPLAY_NAME, true, "The game is visible even in the background (requires restart)");
 			Enabled.SettingChanged += (sender, args) => {
-				if (!Enabled.Value) {
+				if (!Enabled.Value && !restored) {
 					RestoreFromBackup();
+					restored = true;
 				}
 			};
 		}
