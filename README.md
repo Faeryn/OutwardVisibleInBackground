@@ -25,6 +25,9 @@ because of the aforementioned asset patching.
 
 
 ## Changelog
+### v1.1.1
+- Minor backup restore fix
+
 ### v1.1.0
 - Added enable/disable setting
 
