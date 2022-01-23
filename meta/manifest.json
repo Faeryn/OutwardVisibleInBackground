@@ -1,7 +1,7 @@
 {
     "name": "VisibleInBackground",
     "author": "Faeryn",
-    "version_number": "1.1.0",
+    "version_number": "1.1.1",
     "website_url": "https://github.com/Faeryn/OutwardVisibleInBackground",
     "description": "Makes the game visible even when it's not focused",
     "dependencies": [

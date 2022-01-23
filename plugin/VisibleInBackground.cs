@@ -9,7 +9,7 @@ namespace BetterChat {
 	public class VisibleInBackground : BaseUnityPlugin {
 		public const string GUID = "faeryn.visibleinbackground";
 		public const string NAME = "VisibleInBackground";
-		public const string VERSION = "1.1.0";
+		public const string VERSION = "1.1.1";
 		private const string DISPLAY_NAME = "Visible in Background";
 		internal static ManualLogSource Log;
 		
