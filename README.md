@@ -21,7 +21,6 @@ because of the aforementioned asset patching.
 ## Used 3rd party libraries and tools
 - `AssetTools.NET`
 - Parts of the code is based on `Raicuparta's unity-vr-patcher`
-- classdata.tpk from `UABE`
 
 
 ## Changelog
