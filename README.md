@@ -1,5 +1,7 @@
 # Visible In Background
 
+### WARNING: This mod is obsolete now, the functionality it provides is part of the Definitive Edition (You can still use it for vanilla Outward)
+
 A small mod that makes the game visible even when it's not focused (for multi-monitor setups). It requires Borderless window mode (does not work in Fullscreen).
 Special thanks to **Sinai** for showing me the asset patcher solution.
 
@@ -24,6 +26,9 @@ because of the aforementioned asset patching.
 
 
 ## Changelog
+### v1.1.1
+- Definitive Edition notice (mod is obsolete now)
+
 ### v1.1.1
 - Minor backup restore fix
 
